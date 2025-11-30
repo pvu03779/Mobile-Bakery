@@ -1,0 +1,58 @@
+import { Product } from '../types';
+
+export const products: Product[] = [
+  {
+    id: '1',
+    name: 'Chicken Cheese Bagel',
+    price: 99,
+    image: 'https://images.unsplash.com/photo-1579722279758-6f6cf2206543?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYWdlbHMlMjBicmVha2Zhc3R8ZW58MXx8fHwxNzY0MzMzNTMxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    description: 'Bánh mì tròn mới nướng thơm ngon chứa đầy thịt gà mềm và phô mai tan chảy. Hoàn hảo cho bữa sáng hoặc bữa trưa thỏa mãn. Được làm bằng nguyên liệu cao cấp và công thức đặc trưng của chúng tôi',
+    rating: 4.5,
+    category: 'Breads & Pastries',
+  },
+  {
+    id: '2',
+    name: 'Classic Croissant',
+    price: 49,
+    image: 'https://images.unsplash.com/photo-1709798289100-7b46217e0325?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmcmVzaCUyMGNyb2lzc2FudHMlMjBiYWtlcnl8ZW58MXx8fHwxNzY0MjU4OTI0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    description: 'Bánh sừng bò xốp, bơ nướng tươi hàng ngày. Mỗi lớp đều giòn hoàn hảo ở bên ngoài và mềm mại ở bên trong. Một loại rượu cổ điển của Pháp kết hợp tuyệt vời với cà phê buổi sáng của bạn.',
+    rating: 4.8,
+    category: 'Breads & Pastries',
+  },
+  {
+    id: '3',
+    name: 'Artisan Sourdough',
+    price: 69,
+    image: 'https://images.unsplash.com/photo-1565801776220-10bd41565980?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcnRpc2FuJTIwYnJlYWQlMjBsb2F2ZXN8ZW58MXx8fHwxNzY0MjIyNTA0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    description: 'Bánh mì bột chua được làm thủ công với lớp vỏ vàng và bên trong dai. Được làm bằng món khai vị 100 năm tuổi của chúng tôi để mang lại hương vị thơm ngon đích thực. Hoàn hảo cho bánh sandwich hoặc bánh mì nướng.',
+    rating: 4.9,
+    category: 'Breads',
+  },
+  {
+    id: '4',
+    name: 'Mixed Berry Danish',
+    price: 44,
+    image: 'https://images.unsplash.com/photo-1608220874995-aa3e5301c676?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYWtlcnklMjBicmVhZCUyMHBhc3RyaWVzfGVufDF8fHx8MTc2NDIzNjIwMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    description: 'Bánh ngọt nhân kem phô mai và phủ quả mọng tươi. Một món ăn thú vị kết hợp vị chua và ngọt trong từng miếng ăn. Nướng đến độ vàng hoàn hảo.',
+    rating: 4.6,
+    category: 'Pastries',
+  },
+  {
+    id: '5',
+    name: 'Chocolate Chip Muffin',
+    price: 39,
+    image: 'https://images.unsplash.com/photo-1760432794122-fa000107a4bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYWtlcnklMjBkaXNwbGF5JTIwY2FzZXxlbnwxfHx8fDE3NjQzMzM1MzF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    description: 'Bánh muffin ẩm và mịn chứa đầy sô-cô-la chip cao cấp. Một người bạn đồng hành hoàn hảo cho cà phê buổi sáng hoặc bữa ăn nhẹ buổi chiều của bạn. Được làm bằng bơ thật và vani.',
+    rating: 4.7,
+    category: 'Pastries',
+  },
+  {
+    id: '6',
+    name: 'Whole Wheat Roll',
+    price: 29,
+    image: 'https://images.unsplash.com/photo-1608220874995-aa3e5301c676?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYWtlcnklMjBicmVhZCUyMHBhc3RyaWVzfGVufDF8fHx8MTc2NDIzNjIwMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    description: 'Bánh mì nguyên hạt giàu dinh dưỡng với kết cấu mềm và hương vị hấp dẫn. Được làm bằng bột mì nguyên hạt để bổ sung chất xơ và dinh dưỡng. Tuyệt vời cho bánh sandwich hoặc như một món ăn phụ.',
+    rating: 4.4,
+    category: 'Breads',
+  },
+];
