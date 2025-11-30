@@ -184,7 +184,7 @@ export const Cart: React.FC<CartProps> = ({
                 <div className="border-t border-[#fdcd00]/30 pt-3 flex items-center justify-between">
                   <span className="text-[#1a1a1a]">Total:</span>
                   <span className="text-[#1a1a1a]">
-                    {totalAmount} VNĐ
+                    {totalAmount.toFixed(0)} VNĐ
                   </span>
                 </div>
                 <div className="flex items-center justify-between text-sm pt-2">
